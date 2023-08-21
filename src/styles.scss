@@ -1,9 +1,11 @@
-@import 'variables';
-@import 'reset';
-@import 'rem-calc';
+@import "variables";
+@import "reset";
+@import "rem-calc";
+@import "btn";
+@import "animation.scss";
 
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background: var(--primary-color);
 }
 
