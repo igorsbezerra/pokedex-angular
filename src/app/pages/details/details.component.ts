@@ -19,6 +19,7 @@ export class DetailsComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    console.log('init details');
     this.getPokemon;
   }
 
